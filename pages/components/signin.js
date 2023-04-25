@@ -9,7 +9,7 @@ import { useSession, signIn, signOut, getSession } from "next-auth/react" //dete
 import { useEffect, useState } from "react";
 
 export default function Signin({session}) {
-    const router = useRoute()
+    const router = useRouter()
   
   console.log(session);
 
