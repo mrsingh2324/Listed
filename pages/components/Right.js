@@ -16,7 +16,7 @@ import Chart from './Chart';
 
 const Right = () => {
   return (
-    <div className="p-4 sm:ml-64 ">
+    <div className="p-4 sm:ml-64 h-full ">
       <Navbar />
       <div className="p-4 ">
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-4 mb-4">

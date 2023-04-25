@@ -15,7 +15,7 @@ import Right from "./components/Right";
 
 const dashboard = () => {
   return (
-    <div className="parent">
+    <div className="parent h-screen">
       <Disclosure as="nav">
         <Disclosure.Button className="absolute top-2 left-4 inline-flex items-center peer justify-center rounded rounded-md-2 text-gray-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white group ">
           <GiHamburgerMenu

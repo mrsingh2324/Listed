@@ -12,7 +12,7 @@ const Left = () => {
   return (
     <aside
       id="default-sidebar"
-      className="absolute top-0 left-0 w-64 h-screen transition-transform  bg-black-500 "
+      className="md:hidden lg:block top-0 left-0 w-64 h-screen transition-transform  bg-black-500 "
       aria-label="Sidebar"
     >
       <div className="h-[92%] px-5 py-10 overflow-y-auto bg-black border-2 flex flex-col justify-between rounded-3xl m-5">
@@ -42,12 +42,7 @@ const Left = () => {
               <span className="px-3">Users</span>
             </a>
           </li>
-          <li>
-            <a href="#" className="flex items-center px-5 py-3 text-white">
-              <FontAwesomeIcon icon={faCircleUser} className="icon" />
-              <span className="px-3">Users</span>
-            </a>
-          </li>
+
           <li>
             <a href="#" className="flex items-center px-5 py-3 text-white">
               <FontAwesomeIcon icon={faGear} className="icon" />
